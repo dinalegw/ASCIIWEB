@@ -6,6 +6,8 @@ A web generator that creates websites rendered entirely in ASCII art.
 
 ASCIIWEB transforms HTML/CSS content into ASCII art representations, allowing you to generate and serve websites with text-based visuals that work in any terminal or browser.
 
+
+
 ## Features
 
 - Convert HTML elements to ASCII art

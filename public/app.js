@@ -7,6 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const html = htmlInput.value;
     asciiOutput.textContent = 'Loading...';
 
+
+    
     try {
       const response = await fetch('/api/generate', {
         method: 'POST',
