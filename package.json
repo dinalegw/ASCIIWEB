@@ -1,0 +1,23 @@
+{
+  "name": "asciiweb",
+  "version": "1.0.0",
+  "description": "A web generator that creates websites rendered entirely in ASCII art",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build:frontend": "webpack --config webpack.config.js"
+  },
+  "keywords": ["ascii", "web", "generator", "terminal"],
+  "author": "dinalegw",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "canvas": "^2.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0"
+  }
+}
